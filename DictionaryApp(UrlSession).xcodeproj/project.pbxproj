@@ -13,6 +13,10 @@
 		04B147252898D3D500D8F4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B147232898D3D500D8F4FA /* Main.storyboard */; };
 		04B147272898D3D700D8F4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B147262898D3D700D8F4FA /* Assets.xcassets */; };
 		04B1472A2898D3D700D8F4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B147282898D3D700D8F4FA /* LaunchScreen.storyboard */; };
+		04B147322898D5DB00D8F4FA /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B147312898D5DB00D8F4FA /* DetailVC.swift */; };
+		04B147342898D72F00D8F4FA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B147332898D72F00D8F4FA /* TableViewCell.swift */; };
+		04B147362898DBA700D8F4FA /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B147352898DBA700D8F4FA /* Kelimeler.swift */; };
+		04B1473A2898E0D800D8F4FA /* KelimelerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B147392898E0D800D8F4FA /* KelimelerResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		04B147262898D3D700D8F4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B147292898D3D700D8F4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B1472B2898D3D700D8F4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B147312898D5DB00D8F4FA /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		04B147332898D72F00D8F4FA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04B147352898DBA700D8F4FA /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+		04B147392898E0D800D8F4FA /* KelimelerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimelerResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				04B1471D2898D3D500D8F4FA /* AppDelegate.swift */,
 				04B1471F2898D3D500D8F4FA /* SceneDelegate.swift */,
 				04B147212898D3D500D8F4FA /* ViewController.swift */,
+				04B147312898D5DB00D8F4FA /* DetailVC.swift */,
+				04B147332898D72F00D8F4FA /* TableViewCell.swift */,
 				04B147232898D3D500D8F4FA /* Main.storyboard */,
 				04B147262898D3D700D8F4FA /* Assets.xcassets */,
 				04B147282898D3D700D8F4FA /* LaunchScreen.storyboard */,
 				04B1472B2898D3D700D8F4FA /* Info.plist */,
+				04B147352898DBA700D8F4FA /* Kelimeler.swift */,
+				04B147392898E0D800D8F4FA /* KelimelerResponse.swift */,
 			);
 			path = "DictionaryApp(UrlSession)";
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B147362898DBA700D8F4FA /* Kelimeler.swift in Sources */,
+				04B147342898D72F00D8F4FA /* TableViewCell.swift in Sources */,
 				04B147222898D3D500D8F4FA /* ViewController.swift in Sources */,
+				04B147322898D5DB00D8F4FA /* DetailVC.swift in Sources */,
+				04B1473A2898E0D800D8F4FA /* KelimelerResponse.swift in Sources */,
 				04B1471E2898D3D500D8F4FA /* AppDelegate.swift in Sources */,
 				04B147202898D3D500D8F4FA /* SceneDelegate.swift in Sources */,
 			);
